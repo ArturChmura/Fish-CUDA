@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="gpuVersion.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config.h" />
+    <ClInclude Include="dataModel.h" />
+    <ClInclude Include="fishesTypes.h" />
+    <ClInclude Include="vectors.h" />
+    <ClInclude Include="cudaVectorHelpers.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="initalization.h">
+      <Filter>Start and End</Filter>
+    </ClInclude>
+    <ClInclude Include="allocation.h">
+      <Filter>Start and End</Filter>
+    </ClInclude>
+    <ClInclude Include="deallocation.h">
+      <Filter>Start and End</Filter>
+    </ClInclude>
+    <ClInclude Include="VBOs.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="config.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Math">
+      <UniqueIdentifier>{36415a49-4356-4788-b7d5-2394d40497cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Start and End">
+      <UniqueIdentifier>{5cb0fa2d-10aa-4000-b779-a3be13453831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL">
+      <UniqueIdentifier>{9de822d7-f730-4426-bff1-1bda5c0978d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

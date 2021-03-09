@@ -1,0 +1,11 @@
+fishesCount=50000;				//number of fish in the simulation
+sociableProportion=1;       		//
+asocialProportion=1;        		//proportion of fishTypes (1,1,2 = 25%,25%,50%)
+crowdFollowingProportion=1; 		//
+maxFPS=0;						/limiting the number of frames, <=0 - unlimited
+width=1000;						//window width
+height=1000;					//window height
+cubeSideLength=2100				//cude side length
+maxSpeed=1.0f;					//maximum fish speed (distance in one frame)
+maxAcceleration=0.05;			//maximum acceleration of the fish
+radious=500.0f;					//neighbors visibility distance (should be less than (cube size)/2)
